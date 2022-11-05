@@ -8,7 +8,6 @@ class MyCogs(commands.Cog):
         self.bot = bot
 
     async def cog_load(self):
-        """Method called when the cog has been fully loaded."""
         logging.info("The Miscellaneous cog is loaded.")
 
     @commands.command(name="coolbot")
