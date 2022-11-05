@@ -4,13 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
+"discord.py" = "*"
+python-dotenv = "*"
 
 [dev-packages]
 pylint = "*"
 autopep8 = "*"
 flake8 = "*"
 pre-commit = "*"
+black = "*"
 
 [requires]
 python_version = "3.9"
